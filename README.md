@@ -1,0 +1,2 @@
+# BlockchainDocumentVerification
+ secure platform designed for an educational institution to verify academic documents using blockchain technology. This solution ensures authenticity, prevents tampering, and provides seamless access to verified credentials. Built with a focus on transparency and efficiency, the platform offers features such as document uploading, verification status tracking, and immutable records stored on the blockchain. Ideal for modernizing academic credential verification.
