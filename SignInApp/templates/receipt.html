@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transaction Details</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static '/SignInApp/signinstyle.css' %}">
+</head>
+<body>
+    <div class="transaction-container">
+        <h1>Transaction Details</h1>
+        <div class="transaction-card">
+            <p><strong>Transaction Hash:</strong> {{ id }}</p>
+            <p><strong>To:</strong> {{ to }}</p>
+            <p><strong>From:</strong> {{ from }}</p>
+            <p><strong>Cost:</strong> {{ cost }}</p>
+        </div>
+    </div>
+</body>
+</html>

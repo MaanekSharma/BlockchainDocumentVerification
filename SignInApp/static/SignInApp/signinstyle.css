@@ -1,0 +1,333 @@
+/* General Dark Mode Styles */
+body {
+    background-color: #121212;
+    color: #e0e0e0;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    color: #bb86fc;
+    margin-bottom: 20px;
+}
+
+h2 {
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+/* Navigation Bar */
+nav {
+    background-color: #1f1b24;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+nav a {
+    color: #bb86fc;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #3700b3;
+}
+
+/* Form Fields */
+form p {
+    margin: 10px 0;
+    color: #bb86fc;
+}
+
+/* Form Container */
+.center form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+/* Input field styling */
+.center form input[type="text"],
+.center form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #333;
+    border-radius: 5px;
+    background-color: #2c2c2c;
+    color: #e0e0e0;
+    box-sizing: border-box;
+}
+
+input[type="text"]::placeholder, input[type="password"]::placeholder {
+    color: #888;
+}
+
+/* Button Styles */
+button, .button-link {
+    background-color: #bb86fc;
+    color: #121212;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 2px;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none; /* Remove underline for link */
+    transition: background-color 0.3s;
+    margin-top: 10px;
+}
+
+/* Hover effect for both buttons */
+button:hover, .button-link:hover {
+    background-color: #9a4bcc;
+}
+
+/* Container for buttons */
+.button-container {
+    display: flex;
+    gap: 5x; /* Space between the buttons */
+    width: 100%;
+    justify-content: center;
+}
+
+/* Centered Welcome Container */
+.welcome-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh; /* Center vertically */
+    text-align: center;
+}
+
+/* Large Main Title */
+.main-title {
+    font-size: 3em;
+    color: #bb86fc;
+    margin-bottom: 5px;
+}
+
+.sub-title {
+    font-size: 1em;
+    color: #ffffff;
+    margin-bottom: 5px;
+}
+
+/* Button Link Styling */
+.button-link {
+    background-color: #bb86fc;
+    color: #121212;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 10px;
+    transition: background-color 0.3s;
+}
+
+.button-link:hover {
+    background-color: #9a4bcc;
+}
+
+/* Bottom Images */
+.bottom-left-image {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    width: 200px;
+    height: auto;
+}
+
+.bottom-right-image {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    width: 100px;
+    height: auto;
+}
+
+/* Verification Container */
+.verify-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 80vh;
+    padding: 20px;
+    text-align: center;
+}
+
+.verify-container h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+/* Form Styles */
+.verify-form {
+    background-color: #1f1b24;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    max-width: 400px;
+    width: 100%;
+}
+
+.verify-form p {
+    margin: 15px 0;
+}
+
+.verify-form button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #bb86fc;
+    color: #121212;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.verify-form button:hover {
+    background-color: #9a4bcc;
+}
+
+/* Auth Message Styling */
+.auth-message {
+    margin-top: 20px;
+    color: #bb86fc;
+    font-size: 1.2em;
+}
+
+/* Upload Container */
+.upload-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 80vh;
+    padding: 20px;
+    text-align: center;
+}
+
+.upload-container h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+/* Form Styling */
+.upload-form {
+    background-color: #1f1b24;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    max-width: 400px;
+    width: 100%;
+}
+
+.upload-form p {
+    margin: 15px 0;
+}
+
+.upload-form button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #bb86fc;
+    color: #121212;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.upload-form button:hover {
+    background-color: #9a4bcc;
+}
+
+/* Documents List */
+.documents-list {
+    margin-top: 20px;
+    text-align: left;
+    max-width: 400px;
+    width: 100%;
+    background-color: #1f1b24;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.documents-list h2 {
+    color: #bb86fc;
+    margin-bottom: 10px;
+}
+
+.documents-list ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.documents-list ul li {
+    background-color: #2c2c2c;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    color: #e0e0e0;
+}
+
+/* Success Message */
+.success-message {
+    margin-top: 20px;
+    color: #bb86fc;
+    font-size: 1.2em;
+}
+
+.success-message a {
+    color: #bb86fc;
+    text-decoration: none;
+}
+
+.success-message a:hover {
+    color: #9a4bcc;
+}
+
+/* Transaction Container */
+.transaction-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 80vh;
+    padding: 20px;
+    text-align: center;
+}
+
+.transaction-card {
+    background-color: #1f1b24;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    max-width:800px;
+    width: 100%;
+}
+
+.transaction-card p {
+    margin: 10px 0;
+    font-size: 1.1em;
+    color: #e0e0e0;
+}
+
+.transaction-card p strong {
+    color: #bb86fc;
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verify Documents</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'SignInApp/signinstyle.css' %}">
+</head>
+<body>
+    <nav>
+        <a href="/">Portal</a>
+        <a href="/SignIn/">Sign In</a>
+        <a href="/SignIn/register/">Register</a>
+        <a href="/Verify-Documents/">Verify Documents</a>
+    </nav>
+
+    <div class="verify-container">
+        <h1>Verify Your Documents</h1>
+        
+        <form method="POST" enctype="multipart/form-data" class="verify-form">
+            {% csrf_token %}
+            {{ form.as_p }}
+            <button type="submit">Verify</button>
+        </form>
+        
+        {% if auth_message %}
+            <p class="auth-message">{{ auth_message }}</p>
+        {% endif %}
+    </div>
+</body>
+</html>

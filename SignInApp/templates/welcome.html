@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document Verification Portal</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'SignInApp/signinstyle.css' %}">
+</head>
+<body>
+
+    <!-- Main Content -->
+    <div class="welcome-container">
+        <h1 class="main-title">Document Verification Portal</h1>
+        <h2 class="sub-title">Simplifying the future of document verification</h1>
+        
+        <div class="button-container">
+            <a href="/SignIn/" class="button-link">Sign In</a>
+            <a href="/SignIn/register/" class="button-link">Create an Account</a>
+        </div>
+        
+        <!-- Images at the bottom left and right -->
+        <img src="{% static 'SignInApp/uwindsor.png' %}" alt="Bottom Left Image" class="bottom-left-image">
+        <img src="{% static 'SignInApp/files.png' %}" alt="Bottom Right Image" class="bottom-right-image">
+    </div>
+</body>
+</html>
